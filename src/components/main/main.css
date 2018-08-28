@@ -1,0 +1,21 @@
+.main-component {
+  margin-top: 0rem;
+  font-size: 2rem;
+  color:#67809F;
+  text-align: center;
+  vertical-align: middle;
+  height:10rem;
+  background-color: #2C3E50;
+  position:relative;
+}
+
+.image-header{
+  position:absolute;
+  top: 25%;
+  left: 40%;
+  width: 18rem;
+  border-radius: 12rem;
+}
+.main-parent{
+  /* background-color: #013243 */
+}
