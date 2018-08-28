@@ -1,0 +1,23 @@
+{
+  "name": "gensite",
+  "version": "1.0.0",
+  "description": "GenSite with blog and portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openmohan/GenSite.git"
+  },
+  "keywords": [
+    "Blog",
+    "portfolio"
+  ],
+  "author": "openmohan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/openmohan/GenSite/issues"
+  },
+  "homepage": "https://github.com/openmohan/GenSite#readme"
+}
