@@ -1,0 +1,129 @@
+html,body {
+    position: relative; 
+    height: 100%;
+}
+body .navbar-collapse a:hover,#homePage{
+  transition:0.5s;
+}
+body .navbar-collapse a:hover,#homePage:hover{
+  color:#fc3565 !important;
+}
+
+#section1 {padding-top:50px;height:100%;}
+#section2 {padding-top:50px;height:100%;}
+
+#section3 {padding-top:50px;height:100%;color: #fff; background-color: #ff9800; padding:0px !important;}
+#section41 {padding-top:50px;height:100%;color: #fff; background-color: #00bcd4;}
+#section42 {padding-top:50px;height:100%;color: #fff; background-color: #009688;}
+
+/*dfor V*/
+#section1 {
+/* Mobile first queries */
+/* Larger than mobile */
+/* Larger than phablet */
+/* Larger than tablet */
+/* Larger than desktop */
+/* Larger than Desktop HD */
+}
+BODY {
+background: #282931;
+-webkit-font-smoothing: antialiased;
+font-family: 'Varela Round', sans-serif;
+height: 100%;
+}
+#section1 canvas {
+height: 100vh;
+z-index: -10;
+position: fixed;
+top: 0px;
+}
+#section1 a {
+color: #bbbbc4;
+text-decoration: none;
+-o-transition: 0.5s;
+-ms-transition: 0.5s;
+-moz-transition: 0.5s;
+-webkit-transition: 0.5s;
+transition: 0.5s;
+}
+#section1 a:hover {
+color: #fc3565;
+}
+#section1 h1 {
+color: #fc3565;
+padding-bottom: 0px;
+margin-bottom: 1%;
+}
+#section1 h2 {
+color: white;
+font-size: 3rem;
+font-weight: bold;
+margin: 0px;
+padding: 0px;
+}
+#section1 .row.top p {
+  color: #e6e6e6;
+  margin-top: 1rem;
+  text-align: justify;
+  font-size: 1.7rem;
+  }
+#section1 .logo {
+font-family: 'Monoton', cursive;
+color: white;
+font-size: 8rem;
+}
+#section1 .smallLogo {
+font-family: 'Monoton', cursive;
+color: white;
+font-size: 4rem;
+text-align:center;
+}
+
+#section1 .container{
+}
+#section1 .top {
+padding-bottom: 5rem;
+}
+#section1 .pulled ul li {
+list-style: none;
+margin-right: 2rem;
+font-size: 1.8rem;
+}
+#section1 .pulled h1 {
+color: white;
+font-size: 3rem;
+}
+#section1 .pulled ul li span {
+font-size: 1.2rem;
+}
+#section1 .footer {
+padding-top: 5rem;
+}
+#section1 .footer p {
+color: white;
+font-size: 1.2rem;
+}
+#section1 .visit {
+color: white;
+font-size: 12px;
+background: #32333a;
+width: 146px;
+padding: 6px;
+border-radius: 10px;
+position: fixed;
+right: 20px;
+}
+@media (min-width: 1200px) {
+#section1 h1 {
+  font-size: 4rem;
+}
+}
+#section1 .footerLinks{
+text-align: center
+}
+#section1 .footerLinks li{
+display:inline-block;
+margin:10px;
+font-weight :400;
+font-size:15px
+}
