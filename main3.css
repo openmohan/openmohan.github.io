@@ -1,0 +1,154 @@
+body{
+  /* letter-spacing: 0.1rem; */
+}
+#Section3 {
+    /* background: black; */
+    /* -----------------------------------------------
+     * Timeline
+     * --------------------------------------------- */
+
+     color:white;
+  }
+
+  #section3 h1,h2{
+    color:white;
+
+  }
+
+  #section3 p{
+    color:white;
+
+  }
+
+  #section3 .companyLogo{
+    margin-right: 2rem;
+    width: 9rem;
+    float: left;
+  }
+  #section3 .ExpContent{
+    margin-left:16rem;
+    font-size:1.5rem;
+    margin-top:2rem
+  }
+  #section3 .skills{
+    font-family: 'Open Sans';
+    opacity: 0.6;
+
+    font-size:1.8rem
+  }
+  #section3 .explainProjects{
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    font-family: 'Open Sans';
+
+  }
+  #section3 .ProjectTitle{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Open Sans';
+
+
+  }
+  .table>thead>tr>td, .table>thead>tr>th{
+      border-top:0px !important;
+  }
+
+  td{
+    border-top:0px !important;
+
+  }
+  #section3 .companyLogodiv{
+
+  }
+
+  #section3 label{
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 1.9rem;
+  }
+  .c-accordion {
+    position: relative;
+    margin-bottom: 1px;
+    width: 100%;
+    color: #fff;
+    overflow: hidden;
+  }
+  
+  .c-accordion input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+  
+  .c-accordion label {
+    position: relative;
+    display: block;
+    padding-left: 20px;
+    background-color: #DB0A5B;
+    font-weight: bold;
+    line-height: 3;
+    cursor: pointer;
+    font-variant: all-small-caps;
+    letter-spacing: 0.3rem;
+    font-variant: all-small-caps;
+  }
+  .c-accordion label:focus {
+    background: pink;
+  }
+  
+  .c-accordion__content {
+    max-height: 0;
+    overflow: hidden;
+    background-color: #D2527F;
+    transition: max-height .75s;
+  }
+  
+  .c-accordion__spacing {
+    padding: 25px 30px;
+  }
+  
+  .c-accordion input:checked ~ .c-accordion__content {
+    max-height: 1000px;
+    transition: max-height 1.5s;
+  }
+  
+  .c-accordion label::after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 3em;
+    height: 3em;
+    line-height: 3;
+    text-align: center;
+    transition: all .35s;
+  }
+  
+  .c-accordion input[type=checkbox] + label::after {
+    content: "+";
+  }
+  
+  .c-accordion input[type=checkbox]:checked + label::after {
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+  }
+  #section3 a{
+    font-size: 1.rem;
+    color:white;
+    text-decoration: underline;
+  }
+  
+.expDate{
+  float:right;
+  margin-right:8rem;
+}
+
+.expHeadings{
+  letter-spacing: 0.3rem;
+  font-size: 2rem;
+  font-variant: all-small-caps;
+}
+
+  /**/
+
+  

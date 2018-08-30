@@ -1,6 +1,8 @@
 html,body {
     position: relative; 
-    height: 100%;
+    height: 100%;}
+body{
+    overflow:hidden
 }
 body .navbar-collapse a:hover,#homePage{
   transition:0.5s;
@@ -12,7 +14,7 @@ body .navbar-collapse a:hover,#homePage:hover{
 #section1 {padding-top:50px;height:100%;}
 #section2 {padding-top:50px;height:100%;}
 
-#section3 {padding-top:50px;height:100%;color: #fff; background-color: #ff9800; padding:0px !important;}
+#section3 {padding-top:50px;height:100%;}
 #section41 {padding-top:50px;height:100%;color: #fff; background-color: #00bcd4;}
 #section42 {padding-top:50px;height:100%;color: #fff; background-color: #009688;}
 
