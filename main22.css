@@ -1,0 +1,242 @@
+body{
+    /* letter-spacing: 0.1rem; */
+  }
+  #section2 {
+      /* background: black; */
+      /* -----------------------------------------------
+       * Timeline
+       * --------------------------------------------- */
+  
+       color:white;
+    }
+  
+    #section2 h1,h2{
+      color:white;
+  
+    }
+  
+    #section2 p{
+      color:white;
+  
+    }
+  
+    #section2 .companyLogo{
+      margin-right: 1rem;
+      width: 8rem;
+      margin-top: 1.1rem;
+      padding: 1.1px;
+      margin-left: 1.3rem;
+    }
+    #section2 .ExpContent{
+      margin-left:16rem;
+      font-size:1.5rem;
+      margin-top:2rem
+    }
+    #section2 .skills{
+      font-variant: all-small-caps;
+      font-family: 'Open Sans';
+      opacity: 0.6;
+      letter-spacing: 0.1rem;
+      font-size: 2.2rem;
+      margin-bottom: 0.1rem;
+    }
+    #section2 .explainProjects{
+      font-size: 1.3rem;
+      letter-spacing: 0.1rem;
+      font-family: 'Open Sans';
+  
+    }
+    #section2 .ProjectTitle{
+      font-size: 1.4rem;
+      font-weight: bold;
+      font-family: 'Open Sans';
+  
+    }
+
+    .section2Panels{
+      display:table;
+      margin:0px;
+      width:100%;
+    }
+    .section2PanelsOne{
+      width:100%;
+      height:40%;
+    }
+    .section2PanelsTwo{
+      width:100%;
+      height:60%;
+    }
+
+
+    .section2Panels .row{
+      height:90%;
+    }
+
+    .section2Panels .halfinTable{
+      height:50%;
+      display:table;
+
+
+    }
+
+  #section2 .cgpa{
+    text-align: center;
+    width:10%;
+    position: relative;
+    right: 1.5rem;
+
+
+  }
+
+    #section2 .companyLogodiv{
+      width:100%;
+      height:100%;
+    }
+
+    #section2 .educationTable{
+      margin-bottom: 0px;
+      margin-top:1rem;
+      display: table-cell;
+      vertical-align: middle;
+    }
+  
+    #section2 .educationTable .eduYear{
+      font-family: 'Open Sans';
+      font-size: 1.4rem;
+      letter-spacing: 0.3rem;
+      width:20%
+    }
+
+    #section2 label{
+      font-family: 'Open Sans';
+      font-weight: bold;
+      font-size: 1.9rem;
+    }
+    .c-accordion {
+      position: relative;
+      margin-bottom: 1px;
+      width: 100%;
+      color: #fff;
+      overflow: hidden;
+    }
+
+    #section2 .number{
+font-size: 2.9rem;display: block    }
+    
+    #section2 a{
+      font-size: 1.rem;
+      color:white;
+      text-decoration: underline;
+    }
+    
+  .expDate{
+    float:right;
+    margin-right:8rem;
+  }
+  
+  .expHeadings{
+    letter-spacing: 0.3rem;
+    font-size: 2rem;
+    font-variant: all-small-caps;
+  }
+
+  .EducationPanel{
+      background-color: #6D214F;
+      float:left;
+      font-size:1.5rem;
+      padding:0px;
+      width: 50%;
+      display: table-cell;
+      vertical-align: middle;
+      height:100%;
+      border-right:1px solid #57606f;
+
+
+      /* height: 35%; */
+  }
+  .frontendPanel{
+    /* background-color:#0c2461; */
+    background-color: #003171;
+    float:left;
+    font-size:1.5rem;
+    padding:0px;
+    width: 50%;
+    display: table-cell;
+    border-right:1px solid #57606f;
+    height:100%;
+
+    /* height: 35%; */
+}
+.backendPanel{
+  background-color: #003171;
+  float:left;
+  font-size:1.5rem;
+  padding:0px;
+  width: 50%;
+  display: table-cell;
+  height:100%;
+
+  /* height: 35%; */
+}
+.chart .label{
+  letter-spacing: 0.1rem;
+  /* word-break: break-all; */
+  line-break: auto;
+  overflow-wrap: normal;
+
+  word-wrap: break-word;
+  white-space: pre-line;
+}
+
+  .otherSummary{
+    background-color: #003171;
+    float:left;
+    font-size:1.5rem;
+    padding:0px;
+    width:50%;
+    /* width: 3%; */
+    display: table-cell;
+    height:100%;
+
+
+    /* height: 35%; */
+
+  }
+  #section2 .logoWidth{
+    width:10%;
+  }
+  #section2 .collegeExp{
+    width:60%;
+  }
+
+  .EducationPanel .Heading , .otherSummary .Heading , .frontendPanel .Heading,.backendPanel .Heading {
+    background-color: black;
+    font-size :2rem !important;
+    padding:1rem 2rem;
+    font-variant: all-small-caps;
+    letter-spacing: 0.3rem;
+    height:10%;
+}
+
+.section2PanelsOne .Heading{
+  height:13%;
+}
+.section2PanelsTwo .Heading{
+  height:10%;
+}
+.collegeName{
+    font-variant: all-small-caps;
+    letter-spacing: 0.3rem;
+    font-size :2rem !important;
+    opacity:0.7
+}
+.Degreename{
+    /* font-variant: all-small-caps; */
+    letter-spacing: 0.3rem;
+    font-size :1.5rem !important;
+    /* opacity:0.7 */
+}
+  
+    /**/
+  
+    
