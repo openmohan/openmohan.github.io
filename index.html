@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=1366, initial-scale=1">
@@ -20,21 +21,32 @@
     <link href="./main22.css" rel="stylesheet">
     <link href="./main3.css" rel="stylesheet">
     <link href="./temp.css" rel="stylesheet">
+
     <script type="text/javascript">
-      if (screen.width <= 699) {
-        alert("New Site not supported in mobile View yet, So redirecting to older site.")
-      document.location = "https://openmohan.github.io/mobileView";
-      }
-      </script>
+
+    $(document).ready(function(){
+              if (screen.width > 1200){
+        }else if (screen.width > 699 && screen.width < 1200){
+          console.log("test")
+          console.log(document.body)
+          document.body.style.zoom = 0.67
+        }
+});
+
+        if (screen.width <= 699) {
+            alert("New Site not supported in mobile View yet, So redirecting to older site.")
+            document.location = "https://openmohan.github.io/mobileView";
+        }
+    </script>
     <title>MP</title>
     <style>
 
 
-        </style>
-        <style>
- 
+    </style>
+    <style>
 
-        </style>
+
+    </style>
 </head>
 <!-- <body style="background-color:#E4F1FE;margin:0px">
 <noscript>
@@ -44,339 +56,340 @@
 <div id="app"></div>
 
 </body> -->
-<body data-spy="scroll" data-target=".navbar" data-offset="100">
 
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>                        
-          </button>
-          <!-- <a class="navbar-brand" id="homePage" href="#section1">WebSiteName</a> -->
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- <a class="navbar-brand" id="homePage" href="#section1">WebSiteName</a> -->
+            </div>
+            <div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#section1">About</a></li>
+                        <li><a href="#section2">Education and Skills</a></li>
+                        <li><a href="#section3">Experience</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-              <li><a href="#section1">Abouts</a></li>
-              <li><a href="#section2">Education and Skills</a></li>
-              <li><a href="#section3">Experience</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>    
-    
+    </nav>
+
     <!-- <div id="section1" class="container-fluid colorCSS">
       <h1>Section 1</h1>
       <p class="textCustom">Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
       <p class="textCustom">Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
     </div> -->
     <div id="section1" class="container-fluid vBODY">
-      <div id="particles-js">
-        <div class="container">
-          <div class="row top">
-            <div class="twelve column">
-              <div class="logo">MP</div>
-              <h1>Mohan Prasath</h1>
-              <h2> Full Stack Developer</h2>
-              <p>I am a Full Stack Engineer and loves to develop 
-                highly scalable web applications .
-                 I work mainly on Golang, React.js , Java , Javascript and few other front end frameworks . I used to develop User centric, Elegant , Composable Web components and frameworks . I believe a product should be coded clean and efficient way to reach the success door . I constantly look after my problem solving skills , Logical thinking and update myself.</p>
-                <br>
-                 <p>Equal Importance to Marvel and DC. Spends most of the time in Three-Point Line and shooting the Ball to Basket</p>
-                </div>
-          </div>
-
-        </div>
-    
-        <div class="container ">
-            <div class="row">
-                <div class="u-full-width column cta">
-                    <div class="logo smallLogo">
-                        MP
+        <div id="particles-js">
+            <div class="container">
+                <div class="row top">
+                    <div class="twelve column">
+                        <div class="logo">MP</div>
+                        <h1>Mohan Prasath</h1>
+                        <h2> Full Stack Developer</h2>
+                        <p>I am a Full Stack Engineer and loves to develop
+                            highly scalable web applications .
+                            I work mainly on Golang, React.js , Java , Javascript and few other front end frameworks . I used to develop User centric, Elegant , Composable Web components and frameworks . I believe a product should be coded clean and efficient way to reach the success door . I constantly look after my problem solving skills , Logical thinking and update myself.</p>
+                        <br>
+                        <p>Equal Importance to Marvel and DC. Spends most of the time in Three-Point Line and shooting the Ball to Basket</p>
                     </div>
-                    <ul class="footerLinks">
-                        <li>
-                            <a href="https://twitter.com/openmohan">Twitter</a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/openmohan">Linkedin</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/openmohan">Github</a>
-                        </li>
-                        <li>
-                            <a href="https://medium.com/@openmohan">Blog</a>
-                        </li>
-                        <li>
-                            <a id="resume" href="https://github.com/openmohan/openmohan.github.io/raw/gh-pages/MohanFullStackDev.pdf">Resume</a>
-                        </li>
-                    </ul>
+                </div>
 
-                    <!-- <button onclick="location.href='mailto:jwv.gib@gmail.com';" class="button-primary ">Contact Me</button> -->
+            </div>
+
+            <div class="container ">
+                <div class="row">
+                    <div class="u-full-width column cta">
+                        <div class="logo smallLogo">
+                            MP
+                        </div>
+                        <ul class="footerLinks">
+                            <li>
+                                <a href="https://twitter.com/openmohan">Twitter</a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/openmohan">Linkedin</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/openmohan">Github</a>
+                            </li>
+                            <li>
+                                <a href="https://medium.com/@openmohan">Blog</a>
+                            </li>
+                            <li>
+                                <a id="resume" href="https://github.com/openmohan/openmohan.github.io/raw/gh-pages/MohanFullStackDev.pdf">Resume</a>
+                            </li>
+                        </ul>
+
+                        <!-- <button onclick="location.href='mailto:jwv.gib@gmail.com';" class="button-primary ">Contact Me</button> -->
+                    </div>
+                </div>
+                <div class="footer">
+
                 </div>
             </div>
-          <div class="footer">
-
-          </div>
         </div>
-      </div>
     </div>
-    <div id="section2" class="container-fluid" >
-      <div class="section2Panels section2PanelsOne">
-      <div class="container-fluid EducationPanel">
-          <div class="Heading container-fluid">Education</div>
-            <div class="row">
-              <div class="col-sm-12 halfinTable">
-                <table class="table educationTable">
+    <div id="section2" class="container-fluid">
+        <div class="section2Panels section2PanelsOne">
+            <div class="container-fluid EducationPanel">
+                <div class="Heading container-fluid">Education</div>
+                <div class="row">
+                    <div class="col-sm-12 halfinTable">
+                        <table class="table educationTable">
 
-                  <tbody>
-                    <tr>
-                      <td class="logoWidth">
-                        <div style="margin: 0 auto; width: 10rem">
-                              <img src="bits.png" class="companyLogo" alt="me" style="" />
-                        </div>
-                    </td>
-                      <td class="collegeExp">
-                        <div>
-                          <p class="skills">Birla Institute of Technology</p>
-                          <p class="explainProjects"><span class="ProjectTitle">
-                            <span class="courseName">Masters of Technology in</span> Software systems <br></span>
-                                  Specilization: 
-                                  <br>➢  Distributed Systems
-                                  <br>➢  DataStructures and Algorithms 
-                          </p>
-                        </div>
-                      </td>
-                      <td class="eduYear" style="vertical-align:middle">Current</td>
-                      <td class="cgpa" style="vertical-align:middle"><span class="number " ></span> </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="col-sm-12 halfinTable">
-                <table class="table educationTable">
-                  <tbody>
-                    <tr>
-                        <td class="logoWidth">
-                            <div style="margin: 0 auto; width: 10rem">
-                              <img src="sona.png" class="companyLogo" alt="me" style="" />
-                        </div>
-                    </td>
-                    <td class="collegeExp">
-                        <div>
-                          <p class="skills">Sona College of Technology</p>
-                          <p class="explainProjects"><span class="ProjectTitle">
-                            <span class="courseName">Bachelors of Technology in</span> Information Technology <br></span>
-                                  Achivements:
-                                  <br>➢  Best outgoing student of Year 2011 - 2015
-                                  <br>➢  Won multiple Project and Paper presentations  
-                          </p>
-                        </div>
-                      </td>
-                      <td class="eduYear" style="vertical-align:middle">2011 - 2015</td>
-                      <td class="cgpa" style="vertical-align:middle"><span class="number">8.0</span> CGPA</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+                            <tbody>
+                                <tr>
+                                    <td class="logoWidth">
+                                        <div style="margin: 0 auto; width: 10rem">
+                                            <img src="bits.png" class="companyLogo" alt="me" style="" />
+                                        </div>
+                                    </td>
+                                    <td class="collegeExp">
+                                        <div>
+                                            <p class="skills">Birla Institute of Technology</p>
+                                            <p class="explainProjects"><span class="ProjectTitle">
+                                                    <span class="courseName">Masters of Technology in</span> Software systems <br></span>
+                                                Specilization:
+                                                <br>➢ Distributed Systems
+                                                <br>➢ DataStructures and Algorithms
+                                            </p>
+                                        </div>
+                                    </td>
+                                    <td class="eduYear" style="vertical-align:middle">Current</td>
+                                    <td class="cgpa" style="vertical-align:middle"><span class="number "></span> </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-sm-12 halfinTable">
+                        <table class="table educationTable">
+                            <tbody>
+                                <tr>
+                                    <td class="logoWidth">
+                                        <div style="margin: 0 auto; width: 10rem">
+                                            <img src="sona.png" class="companyLogo" alt="me" style="" />
+                                        </div>
+                                    </td>
+                                    <td class="collegeExp">
+                                        <div>
+                                            <p class="skills">Sona College of Technology</p>
+                                            <p class="explainProjects"><span class="ProjectTitle">
+                                                    <span class="courseName">Bachelors of Technology in</span> Information Technology <br></span>
+                                                Achivements:
+                                                <br>➢ Best outgoing student of Year 2011 - 2015
+                                                <br>➢ Won multiple Project and Paper presentations
+                                            </p>
+                                        </div>
+                                    </td>
+                                    <td class="eduYear" style="vertical-align:middle">2011 - 2015</td>
+                                    <td class="cgpa" style="vertical-align:middle"><span class="number">8.0</span> CGPA</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
 
             </div>
+            <div class="otherSummary">
+                <div class="Heading container-fluid">Databases and others</div>
 
-        </div>
-        <div class="otherSummary">
-            <div class="Heading container-fluid">Databases and others</div>
-
-            <div class="chart-wrap">
-                <!-- <div class="chart-title">
+                <div class="chart-wrap">
+                    <!-- <div class="chart-title">
                   FRONT END STACK 
                 </div> -->
-                <div id="dashboard-stats" class="chart bars-horizontal brand-primary">
-                  <div class="row">
-                    <span class="label">MySQL</span>
-                    <div class="bar-wrap">
-                      <div class="bar" data-value="85"></div>
-                    </div>
-                    <span class="number">62</span>
-                  </div>
-                  <div class="row">
-                    <span class="label">MongoDB</span>
-                    <div class="bar-wrap">
-                      <div class="bar" data-value="65"></div>
-                    </div>
-                    <span class="number">95</span>
-                  </div>
-                  <div class="row">
-                    <span class="label">PostgreSQL</span>
-                    <div class="bar-wrap">
-                      <div class="bar" data-value="75"></div>
-                    </div>
-                    <span class="number">18</span>
-                  </div>
-                  <div class="row">
-                      <span class="label">Cassandra</span>
-                      <div class="bar-wrap">
-                        <div class="bar" data-value="68"></div>
-                      </div>
-                      <span class="number">18</span>
-                    </div>
-                      <div class="row">
-                          <span class="label">Kubernetes</span>
-                          <div class="bar-wrap">
-                            <div class="bar" data-value="75"></div>
-                          </div>
-                          <span class="number">18</span>
+                    <div id="dashboard-stats" class="chart bars-horizontal brand-primary">
+                        <div class="row">
+                            <span class="label">MySQL</span>
+                            <div class="bar-wrap">
+                                <div class="bar" data-value="85"></div>
+                            </div>
+                            <span class="number">62</span>
+                        </div>
+                        <div class="row">
+                            <span class="label">MongoDB</span>
+                            <div class="bar-wrap">
+                                <div class="bar" data-value="65"></div>
+                            </div>
+                            <span class="number">95</span>
+                        </div>
+                        <div class="row">
+                            <span class="label">PostgreSQL</span>
+                            <div class="bar-wrap">
+                                <div class="bar" data-value="75"></div>
+                            </div>
+                            <span class="number">18</span>
+                        </div>
+                        <div class="row">
+                            <span class="label">Cassandra</span>
+                            <div class="bar-wrap">
+                                <div class="bar" data-value="68"></div>
+                            </div>
+                            <span class="number">18</span>
+                        </div>
+                        <div class="row">
+                            <span class="label">Kubernetes</span>
+                            <div class="bar-wrap">
+                                <div class="bar" data-value="75"></div>
+                            </div>
+                            <span class="number">18</span>
                         </div>
                         <div class="row">
                             <span class="label">Prometheus</span>
                             <div class="bar-wrap">
-                              <div class="bar" data-value="60"></div>
+                                <div class="bar" data-value="60"></div>
                             </div>
                             <span class="number">18</span>
-                          </div>
+                        </div>
 
+                    </div>
                 </div>
-              </div>         </div>
-      </div>
-      <div class="section2PanelsTwo">
-        <div class="frontendPanel">
-            <div class="Heading container-fluid">FRONT END STACK</div>
+            </div>
+        </div>
+        <div class="section2PanelsTwo">
+            <div class="frontendPanel">
+                <div class="Heading container-fluid">FRONT END STACK</div>
 
-            <div class="chart-wrap">
-                <!-- <div class="chart-title">
+                <div class="chart-wrap">
+                    <!-- <div class="chart-title">
                   FRONT END STACK 
                 </div> -->
-                <div id="dashboard-stats" class="chart bars-horizontal brand-primary">
-                  <div class="row">
-                    <span class="label">ReactJS</span>
-                    <div class="bar-wrap">
-                      <div class="bar" data-value="85"></div>
-                    </div>
-                    <span class="number">62</span>
-                  </div>
-                  <div class="row">
-                    <span class="label">Javascript</span>
-                    <div class="bar-wrap">
-                      <div class="bar" data-value="95"></div>
-                    </div>
-                    <span class="number">95</span>
-                  </div>
-                  <div class="row">
-                    <span class="label">HTML5,CSS</span>
-                    <div class="bar-wrap">
-                      <div class="bar" data-value="75"></div>
-                    </div>
-                    <span class="number">18</span>
-                  </div>
-                  <div class="row">
-                      <span class="label">Responsive</span>
-                      <div class="bar-wrap">
-                        <div class="bar" data-value="80"></div>
-                      </div>
-                      <span class="number">62</span>
-                    </div>
-                    <div class="row">
-                      <span class="label">Jest</span>
-                      <div class="bar-wrap">
-                        <div class="bar" data-value="70"></div>
-                      </div>
-                      <span class="number">35</span>
-                    </div>
-                    <div class="row">
-                      <span class="label">Redux</span>
-                      <div class="bar-wrap">
-                        <div class="bar" data-value="85"></div>
-                      </div>
-                      <span class="number">18</span>
-                    </div>
-                    <div class="row">
-                        <span class="label">ECMA Script</span>
-                        <div class="bar-wrap">
-                          <div class="bar" data-value="80"></div>
+                    <div id="dashboard-stats" class="chart bars-horizontal brand-primary">
+                        <div class="row">
+                            <span class="label">ReactJS</span>
+                            <div class="bar-wrap">
+                                <div class="bar" data-value="85"></div>
+                            </div>
+                            <span class="number">62</span>
                         </div>
-                        <span class="number">18</span>
-                      </div>
-                      <div class="row">
-                          <span class="label">PWA</span>
-                          <div class="bar-wrap">
-                            <div class="bar" data-value="60"></div>
-                          </div>
-                          <span class="number">18</span>
+                        <div class="row">
+                            <span class="label">Javascript</span>
+                            <div class="bar-wrap">
+                                <div class="bar" data-value="95"></div>
+                            </div>
+                            <span class="number">95</span>
                         </div>
+                        <div class="row">
+                            <span class="label">HTML5,CSS</span>
+                            <div class="bar-wrap">
+                                <div class="bar" data-value="75"></div>
+                            </div>
+                            <span class="number">18</span>
+                        </div>
+                        <div class="row">
+                            <span class="label">Responsive</span>
+                            <div class="bar-wrap">
+                                <div class="bar" data-value="80"></div>
+                            </div>
+                            <span class="number">62</span>
+                        </div>
+                        <div class="row">
+                            <span class="label">Jest</span>
+                            <div class="bar-wrap">
+                                <div class="bar" data-value="70"></div>
+                            </div>
+                            <span class="number">35</span>
+                        </div>
+                        <div class="row">
+                            <span class="label">Redux</span>
+                            <div class="bar-wrap">
+                                <div class="bar" data-value="85"></div>
+                            </div>
+                            <span class="number">18</span>
+                        </div>
+                        <div class="row">
+                            <span class="label">ECMA Script</span>
+                            <div class="bar-wrap">
+                                <div class="bar" data-value="80"></div>
+                            </div>
+                            <span class="number">18</span>
+                        </div>
+                        <div class="row">
+                            <span class="label">PWA</span>
+                            <div class="bar-wrap">
+                                <div class="bar" data-value="60"></div>
+                            </div>
+                            <span class="number">18</span>
+                        </div>
+                    </div>
                 </div>
-              </div>       
-             </div>
-             <div class="backendPanel">
+            </div>
+            <div class="backendPanel">
                 <div class="Heading container-fluid">BACKEND STACK</div>
-    
+
                 <div class="chart-wrap">
                     <!-- <div class="chart-title">
                       FRONT END STACK 
                     </div> -->
                     <div id="dashboard-stats" class="chart bars-horizontal brand-primary">
-                      <div class="row">
-                        <span class="label">Golang</span>
-                        <div class="bar-wrap">
-                          <div class="bar" data-value="90"></div>
-                        </div>
-                        <span class="number">62</span>
-                      </div>
-                      <div class="row">
-                        <span class="label">NodeJS</span>
-                        <div class="bar-wrap">
-                          <div class="bar" data-value="70"></div>
-                        </div>
-                        <span class="number">95</span>
-                      </div>
-                      <div class="row">
-                        <span class="label">Java</span>
-                        <div class="bar-wrap">
-                          <div class="bar" data-value="80"></div>
-                        </div>
-                        <span class="number">18</span>
-                      </div>
-                      <div class="row">
-                          <span class="label">Concurrency</span>
-                          <div class="bar-wrap">
-                            <div class="bar" data-value="85"></div>
-                          </div>
-                          <span class="number">62</span>
+                        <div class="row">
+                            <span class="label">Golang</span>
+                            <div class="bar-wrap">
+                                <div class="bar" data-value="90"></div>
+                            </div>
+                            <span class="number">62</span>
                         </div>
                         <div class="row">
-                          <span class="label">Distributed Systems</span>
-                          <div class="bar-wrap">
-                            <div class="bar" data-value="90"></div>
-                          </div>
-                          <span class="number">35</span>
+                            <span class="label">NodeJS</span>
+                            <div class="bar-wrap">
+                                <div class="bar" data-value="70"></div>
+                            </div>
+                            <span class="number">95</span>
                         </div>
                         <div class="row">
-                          <span class="label">Python</span>
-                          <div class="bar-wrap">
-                            <div class="bar" data-value="65"></div>
-                          </div>
-                          <span class="number">18</span>
+                            <span class="label">Java</span>
+                            <div class="bar-wrap">
+                                <div class="bar" data-value="80"></div>
+                            </div>
+                            <span class="number">18</span>
+                        </div>
+                        <div class="row">
+                            <span class="label">Concurrency</span>
+                            <div class="bar-wrap">
+                                <div class="bar" data-value="85"></div>
+                            </div>
+                            <span class="number">62</span>
+                        </div>
+                        <div class="row">
+                            <span class="label">Distributed Systems</span>
+                            <div class="bar-wrap">
+                                <div class="bar" data-value="90"></div>
+                            </div>
+                            <span class="number">35</span>
+                        </div>
+                        <div class="row">
+                            <span class="label">Python</span>
+                            <div class="bar-wrap">
+                                <div class="bar" data-value="65"></div>
+                            </div>
+                            <span class="number">18</span>
                         </div>
                         <div class="row">
                             <span class="label">Deployment</span>
                             <div class="bar-wrap">
-                              <div class="bar" data-value="85"></div>
+                                <div class="bar" data-value="85"></div>
                             </div>
                             <span class="number">18</span>
-                          </div>
-                          <div class="row">
-                              <span class="label">Docker</span>
-                              <div class="bar-wrap">
+                        </div>
+                        <div class="row">
+                            <span class="label">Docker</span>
+                            <div class="bar-wrap">
                                 <div class="bar" data-value="85"></div>
-                              </div>
-                              <span class="number">18</span>
                             </div>
+                            <span class="number">18</span>
+                        </div>
                     </div>
-                  </div>       
-                 </div>
-      </div>
-      </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
     <div id="section3" class="container-fluid">
         <h2></h2>
@@ -387,512 +400,517 @@
                     <input id="accordion-id-4" class="c-accordion__input c-accordion__input--single" name="accordion-radio" type="checkbox" aria-controls="accordion-aria-control-4" aria-expanded="false" id="accordion-labelledby-4">
                     <label for="accordion-id-4" class="c-accordion__toggle">Software Engineer @ Cisco <span class="expDate">Sept, 2017 - Current</span></label>
                     <div id="accordion-aria-control-4" class="c-accordion__content" role="region" aria-labelledby="accordion-labelledby-4" aria-hidden="true">
-                      <div class="c-accordion__spacing">
-                          <table class="table">
-                              <tbody>
-                                <tr>
-                                  <td>
-                                      <div class="companyLogodiv"><img class="companyLogo" src="cisco.png"/>
-                                      </div>
-                                  </td>
-                                  <td>
-                                      <div><p class="skills">GoLang, React.js, Cassandra, Openshift, SNMP, Prometheus, Node.js, PHP</p>
-                                        <p class="explainProjects"><span class="ProjectTitle">
-                                            Cisco - Next Generation Cloud Services -</span>
-                                            Provide an enterprise context for delivering cloud services that everyone understands and wants<br>
-                  ➢ Worked on Tenant Manager service to facilitate the tenant onboarding and resource management<br>
-                  ➢ Worked on Load and integration testing on all Micro services (IAM, resource manager and tenant manager) which reduces a huge work load of manual testing in the team.
-                </p><br>
-                <p class="explainProjects"><span class="ProjectTitle">
-                    Cisco Infrastructure Services -</span>
-                    Set of Tools to manage Cisco Cloud Infrastructure and deploy applications in Cisco Cloud<br>
-                    ➢ Developed a tool “Disaster Recovery” to deploy application on the Cisco Cloud and automatic disaster Management and load balancing , which made everyone in tools team to deploy their application seamlessly and securely.
-                    <br>➢ Developed a tool “Tenant Entitlement Tool” used by Customers to check their cloud application status, which gave them a clear view of what resources are on hold my Customers and evaluate the billing.
-                    <br>➢ Developed a Network Orchestration tool “Netroc” to facilitate VPN automation and network device monitoring through SNMP and Prometheus.
-</p>
-                                      </div>
-                                  </td>
-                                </tr>
-                              </tbody>
+                        <div class="c-accordion__spacing">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="companyLogodiv"><img class="companyLogo" src="cisco.png" />
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <p class="skills">GoLang, React.js, Cassandra, Openshift, SNMP, Prometheus, Node.js, PHP</p>
+                                                <p class="explainProjects"><span class="ProjectTitle">
+                                                        Cisco - Next Generation Cloud Services -</span>
+                                                    Provide an enterprise context for delivering cloud services that everyone understands and wants<br>
+                                                    ➢ Worked on Tenant Manager service to facilitate the tenant onboarding and resource management<br>
+                                                    ➢ Worked on Load and integration testing on all Micro services (IAM, resource manager and tenant manager) which reduces a huge work load of manual testing in the team.
+                                                </p><br>
+                                                <p class="explainProjects"><span class="ProjectTitle">
+                                                        Cisco Infrastructure Services -</span>
+                                                    Set of Tools to manage Cisco Cloud Infrastructure and deploy applications in Cisco Cloud<br>
+                                                    ➢ Developed a tool “Disaster Recovery” to deploy application on the Cisco Cloud and automatic disaster Management and load balancing , which made everyone in tools team to deploy their application seamlessly and securely.
+                                                    <br>➢ Developed a tool “Tenant Entitlement Tool” used by Customers to check their cloud application status, which gave them a clear view of what resources are on hold my Customers and evaluate the billing.
+                                                    <br>➢ Developed a Network Orchestration tool “Netroc” to facilitate VPN automation and network device monitoring through SNMP and Prometheus.
+                                                </p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
                             </table>
-                      </div>
+                        </div>
                     </div>
-                  </div>
-            
-                  <div class="c-accordion">
+                </div>
+
+                <div class="c-accordion">
                     <input id="accordion-id-5" class="c-accordion__input c-accordion__input--single" name="accordion-radio" type="checkbox" aria-controls="accordion-aria-control-5" aria-expanded="false" id="accordion-labelledby-5">
                     <label for="accordion-id-5" class="c-accordion__toggle">Member Technical Staff @ Zoho Corporation<span class="expDate">May, 2015 - Sept, 2017</span></label>
                     <div id="accordion-aria-control-5" class="c-accordion__content" role="region" aria-labelledby="accordion-labelledby-5" aria-hidden="true">
-                      <div class="c-accordion__spacing">
-                          <table class="table">
-                              <tbody>
-                                <tr>
-                                  <td>
-                                      <div class="companyLogodiv"><img class="companyLogo" src="./zoho.png"/>
-                                      </div>
-                                  </td>
-                                  <td>
-                                      <div><p class="skills">Java, JSP, JavaScript, Jquery, Chart.js, D3.js, Bootstrap</p>
-                                        <p class="explainProjects"><span class="ProjectTitle">
-                                            WebNMS -</span>
-                                            A Network Management System framework for developing NMS applications seamlessly.<br>
-                                            ➢ Involved in Discovery Module and Troubleshooting module where a root cause for problem between network links are found and provide troubleshooting techniques and docs. This made network admin role more easier and increased productivity
-                                            <br>➢ Developed UI for report generation which gives detailed presentable view of the metric polled from router , So customer can schedule maintenance or increase routers based on the data.
-                                            <br>➢ Gained good experience in Network monitoring and learnt about networking concepts.
-                </p><br>
-                <p class="explainProjects"><span class="ProjectTitle">
-                    ZohoDesk -</span>
-                    A Help desk cloud Product developed for high scalable uses
-                   <br> ➢ Developed live chat support using few other Zoho products (ZohoChat and salesIQ), which provides users to live chat to the available agents and get a solution more quickly.
-                    <br>➢ Introduced React.js in to the chat feature , which made it more intuitive and robust.
-</p>
-
-                                      </div>
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>                      </div>
-                    </div>
-                  </div>
-
-                  <h1 class="expHeadings">Pet Projects</h1>
-                  <div class="c-accordion">
-                      <input id="accordion-id-7" class="c-accordion__input c-accordion__input--single" name="accordion-radio" type="checkbox"
-                        aria-controls="accordion-aria-control-7" aria-expanded="false" id="accordion-labelledby-7">
-                      <label for="accordion-id-7" class="c-accordion__toggle">Javascript Full-stack Engineer<span class="expDate">May,
-                          2017 - Jan, 2018</span></label>
-                      <div id="accordion-aria-control-7" class="c-accordion__content" role="region" aria-labelledby="accordion-labelledby-7"
-                        aria-hidden="true">
                         <div class="c-accordion__spacing">
-                          <table class="table">
-                            <tbody>
-                              <tr>
-                                <td>
-                                  <div class="companyLogodiv"><img class="companyLogo" src="./resume.png" />
-                                  </div>
-                                </td>
-                                <td>
-                                  <div>
-                                    <p class="skills">React.js, Node.js, MongoDB, LinkedIn API</p>
-                                    <p class="explainProjects"><span class="ProjectTitle">
-                                            Resume Builder -</span>
-                                            An resume builder which collects data from LinkedIn and make Portfolio site for users
-                                            <br>➢  Parent site for creating resume is <a href="http://realevents.herokuapp.com">here</a>
-                                            <br>➢  Sample resume after providing details will be <a href="http://mytale.herokuapp.com/mohanprasaths">here</a>
-                                    </p><br>
-                                  </div>
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="companyLogodiv"><img class="companyLogo" src="./zoho.png" />
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <p class="skills">Java, JSP, JavaScript, Jquery, Chart.js, D3.js, Bootstrap</p>
+                                                <p class="explainProjects"><span class="ProjectTitle">
+                                                        WebNMS -</span>
+                                                    A Network Management System framework for developing NMS applications seamlessly.<br>
+                                                    ➢ Involved in Discovery Module and Troubleshooting module where a root cause for problem between network links are found and provide troubleshooting techniques and docs. This made network admin role more easier and increased productivity
+                                                    <br>➢ Developed UI for report generation which gives detailed presentable view of the metric polled from router , So customer can schedule maintenance or increase routers based on the data.
+                                                    <br>➢ Gained good experience in Network monitoring and learnt about networking concepts.
+                                                </p><br>
+                                                <p class="explainProjects"><span class="ProjectTitle">
+                                                        ZohoDesk -</span>
+                                                    A Help desk cloud Product developed for high scalable uses
+                                                    <br> ➢ Developed live chat support using few other Zoho products (ZohoChat and salesIQ), which provides users to live chat to the available agents and get a solution more quickly.
+                                                    <br>➢ Introduced React.js in to the chat feature , which made it more intuitive and robust.
+                                                </p>
+
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
-                      </div>
                     </div>
+                </div>
+
+                <h1 class="expHeadings">Pet Projects</h1>
+                <div class="c-accordion">
+                    <input id="accordion-id-7" class="c-accordion__input c-accordion__input--single" name="accordion-radio" type="checkbox" aria-controls="accordion-aria-control-7" aria-expanded="false" id="accordion-labelledby-7">
+                    <label for="accordion-id-7" class="c-accordion__toggle">Javascript Full-stack Engineer<span class="expDate">May,
+                            2017 - Jan, 2018</span></label>
+                    <div id="accordion-aria-control-7" class="c-accordion__content" role="region" aria-labelledby="accordion-labelledby-7" aria-hidden="true">
+                        <div class="c-accordion__spacing">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="companyLogodiv"><img class="companyLogo" src="./resume.png" />
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <p class="skills">React.js, Node.js, MongoDB, LinkedIn API</p>
+                                                <p class="explainProjects"><span class="ProjectTitle">
+                                                        Resume Builder -</span>
+                                                    An resume builder which collects data from LinkedIn and make Portfolio site for users
+                                                    <br>➢ Parent site for creating resume is <a href="http://realevents.herokuapp.com">here</a>
+                                                    <br>➢ Sample resume after providing details will be <a href="http://mytale.herokuapp.com/mohanprasaths">here</a>
+                                                </p><br>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
             </div>
-  
-          </div>
+
+        </div>
 
     </div>
-    
-    </body>
+
+</body>
+
 </html>
 
 
 <script>
-  jQuery(document).ready(function(){
-	jQuery('.skillbar').each(function(){
-		jQuery(this).find('.skillbar-bar').animate({
-			width:jQuery(this).attr('data-percent')
-		},6000);
-	});
-});
-$(document).ready(function(){
-  // Add scrollspy to <body>
-  $('body').scrollspy({target: ".navbar", offset: 50});   
+    jQuery(document).ready(function() {
+        jQuery('.skillbar').each(function() {
+            jQuery(this).find('.skillbar-bar').animate({
+                width: jQuery(this).attr('data-percent')
+            }, 6000);
+        });
+    });
+    $(document).ready(function() {
+        // Add scrollspy to <body>
+        $('body').scrollspy({
+            target: ".navbar",
+            offset: 50
+        });
 
-  // Add smooth scrolling on all links inside the navbar
-  $("#myNavbar a ").on('click', function(event) {
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
+        // Add smooth scrolling on all links inside the navbar
+        $("#myNavbar a ").on('click', function(event) {
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
 
-      // Store hash
-      var hash = this.hash;
+                // Store hash
+                var hash = this.hash;
 
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function() {
 
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    }  // End if
-  });
-  $("#contactMove").on('click', function(event) {
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+        $("#contactMove").on('click', function(event) {
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
 
-      // Store hash
-      var hash = this.hash;
+                // Store hash
+                var hash = this.hash;
 
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function() {
 
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    }  // End if
-  });
-  $("#homePage").on('click', function(event) {
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+        $("#homePage").on('click', function(event) {
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
 
-      // Store hash
-      var hash = this.hash;
+                // Store hash
+                var hash = this.hash;
 
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function() {
 
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    }  // End if
-  });
-});
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+    });
 </script>
 
 <script>
-    $(document).ready(function(){
+    $(document).ready(function() {
 
-
-particlesJS("particles-js", {
-  "particles": {
-    "number": {
-      "value": 34,
-      "density": {
-        "enable": true,
-        "value_area": 1420.4657549380909
-      }
-    },
-    "color": {
-      "value": "#ffffff"
-    },
-    "shape": {
-      "type": "triangle",
-      "stroke": {
-        "width": 0,
-        "color": "#000000"
-      },
-      "polygon": {
-        "nb_sides": 5
-      },
-      "image": {
-        "src": "img/github.svg",
-        "width": 100,
-        "height": 100
-      }
-    },
-    "opacity": {
-      "value": 0.06313181133058181,
-      "random": false,
-      "anim": {
-        "enable": false,
-        "speed": 1,
-        "opacity_min": 0.1,
-        "sync": false
-      }
-    },
-    "size": {
-      "value": 11.83721462448409,
-      "random": true,
-      "anim": {
-        "enable": false,
-        "speed": 40,
-        "size_min": 0.1,
-        "sync": false
-      }
-    },
-    "line_linked": {
-      "enable": true,
-      "distance": 150,
-      "color": "#ffffff",
-      "opacity": 0.4,
-      "width": 1
-    },
-    "move": {
-      "enable": true,
-      "speed": 6,
-      "direction": "none",
-      "random": false,
-      "straight": false,
-      "out_mode": "out",
-      "bounce": false,
-      "attract": {
-        "enable": false,
-        "rotateX": 600,
-        "rotateY": 1200
-      }
-    }
-  },
-  "interactivity": {
-    "detect_on": "canvas",
-    "events": {
-      "onhover": {
-        "enable": true,
-        "mode": "repulse"
-      },
-      "onclick": {
-        "enable": true,
-        "mode": "push"
-      },
-      "resize": true
-    },
-    "modes": {
-      "grab": {
-        "distance": 400,
-        "line_linked": {
-          "opacity": 1
+        html{
+          zoom:67%;
         }
-      },
-      "bubble": {
-        "distance": 400,
-        "size": 40,
-        "duration": 2,
-        "opacity": 8,
-        "speed": 3
-      },
-      "repulse": {
-        "distance": 200,
-        "duration": 0.4
-      },
-      "push": {
-        "particles_nb": 4
-      },
-      "remove": {
-        "particles_nb": 2
-      }
-    }
-  },
-  "retina_detect": true
-});
-})
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 34,
+                    "density": {
+                        "enable": true,
+                        "value_area": 1420.4657549380909
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "triangle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                    "image": {
+                        "src": "img/github.svg",
+                        "width": 100,
+                        "height": 100
+                    }
+                },
+                "opacity": {
+                    "value": 0.06313181133058181,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 11.83721462448409,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 6,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 400,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    })
 </script>
 
 <script>
     $(document).keyup(function(e) {
         if (e.which === 38) {
-          var lis = $(".navbar  li")
-var active = $('.navbar').find('li.active')
-for(i=lis.length-1;i>0;i--){
-	v = $(lis[i])[0]
-	if(v.classList.contains("active")){
-k = lis[i-1]
-$(k.getElementsByTagName("a")).click()
-}
-}
-}
-else if(e.which === 40){
-  var lis = $(".navbar  li")
-var active = $('.navbar').find('li.active')
-for(i=0;i<lis.length-1;i++){
-	v = $(lis[i])[0]
-	if(v.classList.contains("active")){
-k = lis[i+1]
-$(k.getElementsByTagName("a")).click()
-}
-}
-}
+            var lis = $(".navbar  li")
+            var active = $('.navbar').find('li.active')
+            for (i = lis.length - 1; i > 0; i--) {
+                v = $(lis[i])[0]
+                if (v.classList.contains("active")) {
+                    k = lis[i - 1]
+                    $(k.getElementsByTagName("a")).click()
+                }
+            }
+        } else if (e.which === 40) {
+            var lis = $(".navbar  li")
+            var active = $('.navbar').find('li.active')
+            for (i = 0; i < lis.length - 1; i++) {
+                v = $(lis[i])[0]
+                if (v.classList.contains("active")) {
+                    k = lis[i + 1]
+                    $(k.getElementsByTagName("a")).click()
+                }
+            }
+        }
     });
     var delay = false;
-  $(document).on('mousewheel DOMMouseScroll', function (e) {
-    e.preventDefault();//prevent the default mousewheel scrolling
-    if(delay) return;
-    delay = true;
-    setTimeout(function(){delay = false},800)
-    var active = $('section.active');
-    //get the delta to determine the mousewheel scrol UP and DOWN
-    var delta = e.originalEvent.detail < 0 || e.originalEvent.wheelDelta > 0 ? 1 : -1;
+    $(document).on('mousewheel DOMMouseScroll', function(e) {
+      return
+        e.preventDefault(); //prevent the default mousewheel scrolling
+        if (delay) return;
+        delay = true;
+        setTimeout(function() {
+            delay = false
+        }, 800)
+        var active = $('section.active');
+        //get the delta to determine the mousewheel scrol UP and DOWN
+        var delta = e.originalEvent.detail < 0 || e.originalEvent.wheelDelta > 0 ? 1 : -1;
 
-    //if the delta value is negative, the user is scrolling down
-    if (delta < 0) {
-console.log("down")
-                /* animate the scrollTop by passing 
-                the elements offset top value */
-                var lis = $(".navbar  li")
-var active = $('.navbar').find('li.active')
-for(i=0;i<lis.length-1;i++){
-	v = $(lis[i])[0]
-	if(v.classList.contains("active")){
-k = lis[i+1]
-$(k.getElementsByTagName("a")).click()
-}
-}
+        //if the delta value is negative, the user is scrolling down
+        if (delta < 0) {
+            console.log("down")
+            /* animate the scrollTop by passing 
+            the elements offset top value */
+            var lis = $(".navbar  li")
+            var active = $('.navbar').find('li.active')
+            for (i = 0; i < lis.length - 1; i++) {
+                v = $(lis[i])[0]
+                if (v.classList.contains("active")) {
+                    k = lis[i + 1]
+                    $(k.getElementsByTagName("a")).click()
+                }
+            }
 
 
-        //mousewheel down handler
+            //mousewheel down handler
 
-    } else {
-      console.log("up")
-        //mousewheel up handler
-        /*similar logic to the mousewheel down handler 
-        except that we are animate the anchoring 
-        to the previous sibling element*/
-        var lis = $(".navbar  li")
-var active = $('.navbar').find('li.active')
-for(i=lis.length-1;i>0;i--){
-	v = $(lis[i])[0]
-	if(v.classList.contains("active")){
-k = lis[i-1]
-$(k.getElementsByTagName("a")).click()
-}
-}
+        } else {
+            console.log("up")
+            //mousewheel up handler
+            /*similar logic to the mousewheel down handler 
+            except that we are animate the anchoring 
+            to the previous sibling element*/
+            var lis = $(".navbar  li")
+            var active = $('.navbar').find('li.active')
+            for (i = lis.length - 1; i > 0; i--) {
+                v = $(lis[i])[0]
+                if (v.classList.contains("active")) {
+                    k = lis[i - 1]
+                    $(k.getElementsByTagName("a")).click()
+                }
+            }
+        }
+    });
+    $(document).ready(function() {
+        // document.addEventListener('DOMContentLoaded', function() {
+        var parent = document.querySelector('.splitview'),
+            topPanel = parent.querySelector('.tops'),
+            handle = parent.querySelector('.handle'),
+            skewHack = 0,
+            delta = 0;
+
+        // If the parent has .skewed class, set the skewHack var.
+        if (parent.className.indexOf('skewed') != -1) {
+            skewHack = 1000;
+        }
+
+        parent.addEventListener('mousemove', function(event) {
+            // Get the delta between the mouse position and center point.
+            delta = (event.clientX - window.innerWidth / 2.5) * 0.8;
+            // Move the handle.
+            handle.style.left = event.clientX + delta + 'px';
+
+            // Adjust the top panel width.
+            topPanel.style.width = event.clientX + skewHack + delta + 'px';
+        });
+        // });
+    })
+
+
+    // using core 0.1.21
+
+    "use strict";
+
+    // Switch aria items for accordions on click for accessilibity
+    var accordionLabelIndex = 0,
+        accordionTriggerClass = document.getElementsByClassName(
+            "c-accordion__input"
+        ),
+        accordionToggleAria = function() {
+            var _this = this,
+                expandedState = _this.getAttribute("aria-expanded"),
+                previousElement = this.previousElementSibling,
+                singleInput = document.getElementsByClassName(
+                    "c-accordion__input--single"
+                );
+
+            // This switches all aria back to default on accordion items when being unchecked
+            Array.prototype.forEach.call(singleInput, function(el) {
+                el.setAttribute("aria-expanded", "false");
+                el.nextElementSibling.nextElementSibling.setAttribute(
+                    "aria-hidden",
+                    "true"
+                );
+            });
+
+            if (expandedState === "true") {
+                this.setAttribute("aria-expanded", "false");
+                this.nextElementSibling.nextElementSibling.setAttribute("aria-hidden", "true");
+            } else {
+                this.setAttribute("aria-expanded", "true");
+                this.nextElementSibling.nextElementSibling.setAttribute("aria-hidden", "false");
+            }
+        };
+
+    // Assignment of click event to switch aria-hidden attribute
+    for (
+        accordionLabelIndex; accordionLabelIndex < accordionTriggerClass.length; accordionLabelIndex++
+    ) {
+        accordionTriggerClass[accordionLabelIndex].addEventListener(
+            "click",
+            accordionToggleAria,
+            false
+        );
     }
-});
-$(document).ready(function(){
-    // document.addEventListener('DOMContentLoaded', function() {
-    var parent = document.querySelector('.splitview'),
-        topPanel = parent.querySelector('.tops'),
-        handle = parent.querySelector('.handle'),
-        skewHack = 0,
-        delta = 0;
 
-    // If the parent has .skewed class, set the skewHack var.
-    if (parent.className.indexOf('skewed') != -1) {
-        skewHack = 1000;
+    // Switch check / unchecked on accordion items with a modifier
+
+    var accordionInputIndex = 0,
+        accordionInputClass = document.getElementsByClassName("c-accordion__input"),
+        accordionInputUncheck = function() {
+            var _this = this,
+                instate = _this.checked,
+                checkbox = document.getElementsByClassName("c-accordion__input--single");
+
+            for (var i = 0; i < checkbox.length; i++) {
+                checkbox[i].checked = false;
+            }
+
+            if (instate) {
+                _this.checked = true;
+            }
+        };
+
+    // Assignment of click event to switch aria-hidden attribute
+    for (
+        accordionInputIndex; accordionInputIndex < accordionInputClass.length; accordionInputIndex++
+    ) {
+        accordionInputClass[accordionInputIndex].addEventListener(
+            "change",
+            accordionInputUncheck,
+            false
+        );
     }
+    (function($) {
+        function generateBarGraph(wrapper) {
+            // Set Up Values Array
+            var values = [];
 
-    parent.addEventListener('mousemove', function(event) {
-        // Get the delta between the mouse position and center point.
-        delta = (event.clientX - window.innerWidth / 2.5) * 0.8;
-        // Move the handle.
-        handle.style.left = event.clientX + delta + 'px';
+            // Get Values and save to Array
+            $(wrapper + ' .bar').each(function(index, el) {
+                values.push($(this).data('value'));
+            });
 
-        // Adjust the top panel width.
-        topPanel.style.width = event.clientX + skewHack + delta + 'px';
-    });
-// });
-})
+            // Get Max Value From Array
+            var max_value = Math.max.apply(Math, values);
 
+            // Set width of bar to percent of max value
+            $(wrapper + ' .bar').each(function(index, el) {
+                var bar = $(this),
+                    value = bar.data('value'),
+                    percent = Math.ceil((value / max_value) * 100);
 
-// using core 0.1.21
+                // Set Width & Add Class
+                bar.width(percent + '%');
+                bar.addClass('in');
+            });
+        }
 
-"use strict";
-
-// Switch aria items for accordions on click for accessilibity
-var accordionLabelIndex = 0,
-	accordionTriggerClass = document.getElementsByClassName(
-		"c-accordion__input"
-	),
-	accordionToggleAria = function() {
-		var _this = this,
-			expandedState = _this.getAttribute("aria-expanded"),
-			previousElement = this.previousElementSibling,
-			singleInput = document.getElementsByClassName(
-				"c-accordion__input--single"
-			);
-
-		// This switches all aria back to default on accordion items when being unchecked
-		Array.prototype.forEach.call(singleInput, function(el) {
-			el.setAttribute("aria-expanded", "false");
-			el.nextElementSibling.nextElementSibling.setAttribute(
-				"aria-hidden",
-				"true"
-			);
-		});
-
-		if (expandedState === "true") {
-			this.setAttribute("aria-expanded", "false");
-			this.nextElementSibling.nextElementSibling.setAttribute("aria-hidden", "true");
-		} else {
-			this.setAttribute("aria-expanded", "true");
-			this.nextElementSibling.nextElementSibling.setAttribute("aria-hidden", "false");
-		}
-	};
-
-// Assignment of click event to switch aria-hidden attribute
-for (
-	accordionLabelIndex;
-	accordionLabelIndex < accordionTriggerClass.length;
-	accordionLabelIndex++
-) {
-	accordionTriggerClass[accordionLabelIndex].addEventListener(
-		"click",
-		accordionToggleAria,
-		false
-	);
-}
-
-// Switch check / unchecked on accordion items with a modifier
-
-var accordionInputIndex = 0,
-	accordionInputClass = document.getElementsByClassName("c-accordion__input"),
-	accordionInputUncheck = function() {
-		var _this = this,
-			instate = _this.checked,
-			checkbox = document.getElementsByClassName("c-accordion__input--single");
-
-		for (var i = 0; i < checkbox.length; i++) {
-			checkbox[i].checked = false;
-		}
-
-		if (instate) {
-			_this.checked = true;
-		}
-	};
-
-// Assignment of click event to switch aria-hidden attribute
-for (
-	accordionInputIndex;
-	accordionInputIndex < accordionInputClass.length;
-	accordionInputIndex++
-) {
-	accordionInputClass[accordionInputIndex].addEventListener(
-		"change",
-		accordionInputUncheck,
-		false
-	);
-}
-(function($) {
-  function generateBarGraph(wrapper) {
-    // Set Up Values Array
-    var values = [];
-
-    // Get Values and save to Array
-    $(wrapper + ' .bar').each(function(index, el) {
-      values.push($(this).data('value'));
-    });
-
-    // Get Max Value From Array
-    var max_value = Math.max.apply(Math, values);
-
-    // Set width of bar to percent of max value
-    $(wrapper + ' .bar').each(function(index, el) {
-      var bar = $(this),
-          value = bar.data('value'),
-          percent = Math.ceil((value / max_value) * 100);
-
-      // Set Width & Add Class
-      bar.width(percent + '%');
-      bar.addClass('in');
-    });
-  }
-
-  // Generate the bar graph on window load...
-  $(window).on('load', function(event) {
-    generateBarGraph('#dashboard-stats');
-  });
-})(jQuery); // Fully reference jQuery after this point.
+        // Generate the bar graph on window load...
+        $(window).on('load', function(event) {
+            generateBarGraph('#dashboard-stats');
+        });
+    })(jQuery); // Fully reference jQuery after this point.
 </script>
